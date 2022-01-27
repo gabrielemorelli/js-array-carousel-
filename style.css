@@ -6,7 +6,6 @@
 
 
 .container{
-  
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -30,13 +29,21 @@
 
 }
 .thumbnails img{
-
     height: 20%;
 }
 .big_img img{
     object-fit: fill;
     width: 100%;
     height: 100%;
+}
+
+.text{
+    position:absolute;
+   
+    bottom: 20px;
+   
+    color: white;
+    font-size: 15px;
 }
 .prev, .next {
     position: absolute;
